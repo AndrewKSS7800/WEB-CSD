@@ -9,11 +9,11 @@ function App() {
   return (
     <>
     <Navbar />
-    <Routes base="/WEB-CSD/">
-      <Route path="/" element={<Home />} />
-      <Route path="/sobre-nosotros" element={<About />} />
-      <Route path="/noticias" element={<News />} />
-      <Route path="/contacto" element={<Contact />} />
+    <Routes >
+      <Route path="" element={<Home />} />
+      <Route path="sobre-nosotros" element={<About />} />
+      <Route path="noticias" element={<News />} />
+      <Route path="contacto" element={<Contact />} />
     </Routes>
     </>
   );
