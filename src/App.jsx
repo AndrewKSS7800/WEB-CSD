@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Navbar />
-    <Routes basename="/WEB-CSD">
+    <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/sobre-nosotros" element={<About />} />
       <Route path="/noticias" element={<News />} />
